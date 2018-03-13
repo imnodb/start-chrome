@@ -1,6 +1,6 @@
-# open
+# start-chrome
 
-start chrome with flags.
+run chrome with flags.
 
 # Usage
 

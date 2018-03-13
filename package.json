@@ -1,13 +1,13 @@
 {
   "name": "start-chrome",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "run chrome with flags",
   "keywords": [
+    "chrome",
     "start",
     "open",
     "run",
-    "browser",
-    "chrome"
+    "browser"
   ],
   "author": "DB Eriospermum <imnodb@gmail.com>",
   "license": "MIT",
@@ -19,7 +19,7 @@
     "url": "https://github.com/imnodb/start-chrome/issues"
   },
   "engines": {
-    "node": ">= 0.6.0"
+    "node": ">= 6.0.0"
   },
   "dependencies": {},
   "devDependencies": {
@@ -29,6 +29,7 @@
   "main": "lib/start-chrome.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha",
-    "debug": "node --inspect-brk=9229 lib/open-borwser.js"
+    "debug": "node --inspect-brk=9229 lib/open-borwser.js",
+    "publish": "npm publish"
   }
 }
