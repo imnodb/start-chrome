@@ -1,6 +1,6 @@
 {
   "name": "start-chrome",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "run chrome with flags",
   "keywords": [
     "chrome",
